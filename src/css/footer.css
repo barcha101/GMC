@@ -1,0 +1,117 @@
+.footer__container{
+    max-width: 1920px;
+    width: 100%;
+    /* height: 549px; */
+    background-color: #345995;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 16px;
+    box-sizing: border-box;
+    /* padding: 24px; */
+    position: relative;
+    overflow: hidden;
+}
+.footer-block{
+    box-sizing: border-box;
+    display: flex;
+    padding: 68px;
+    flex-direction: row;
+    align-items: start;
+    width: 1920px;
+    justify-content: space-between;
+}
+.footer-logo{
+    width: 268px;
+    height: 119px;
+}
+.footer-box-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 392px;
+    height: 305px;
+    gap: 47px;
+
+
+}
+.footer-box-info p{
+    box-sizing: border-box;
+    width: 392px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    
+    
+}
+.footer-signup{
+    box-sizing: border-box;
+    width: 217px;
+    height: 51px;
+    padding: 16px 32px 16px 32px;
+    color: #FFFFFF;
+    border-radius: 100px;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; 
+}
+
+.footer-box-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    height:134px;
+    gap: 32px;
+
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 44px;
+
+}
+.footer-nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+}
+.footer-nav a:first-child{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.company-rights{
+    margin: auto;
+    border-top: 2px solid #FFFFFF;
+    width: 90%;
+    text-align: center;
+    padding-top: 2em;
+    color: #FFFFFF;
+}
+.footer-img{
+    position: absolute;
+    top: 168px;
+    left: -10px;
+    transform: rotate(-5deg);
+   
+}

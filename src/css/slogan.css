@@ -1,0 +1,45 @@
+.slogan__container {
+    box-sizing: border-box;
+    padding-top: 275px;
+    padding-left: 122px;
+    height: 1020px;
+    width: 100%;
+    background-image: 
+        linear-gradient(#0000004D, #0000004D), /* Tint color */
+        url('../assets/images/background-img.jpg'); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slogan__container h1{
+    width: 1055px;
+    height: 288px;
+    font-size: 96px;
+    line-height: 96x;
+    letter-spacing: -1;
+    font-weight: 600;
+    color: #F9F8F8;
+}
+.slogan__block{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 603px;
+    height: 167px;
+}
+.slogan__block p{
+    color: #F9F8F8;
+  
+}
+.slogan__block a{
+    text-decoration: none;
+    border-radius: 100px;
+    height: 56px;
+    width: 306px;
+    box-sizing: border-box;
+    padding: 16px 32px;
+    color: #F9F8F8;
+    text-align: center;
+    background-color: #345995;
+
+}

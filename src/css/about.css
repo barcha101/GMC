@@ -1,0 +1,25 @@
+.about__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1760px;
+    height: 87px;
+    margin: 5em 4em;
+}
+.about__container h1{
+    width: 285px;
+    height: 83px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    color: #231F20;
+}
+.about__container p{
+    width: 1032px;
+    height: 87px;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #231F20;
+    font-weight: 400;
+
+}

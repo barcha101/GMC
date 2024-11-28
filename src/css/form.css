@@ -1,0 +1,123 @@
+.form__container{
+    background-image: url('../assets/images/Contact-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    width: 1920px;
+    height: 879px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    box-sizing: border-box;
+}
+.form__box-info{ 
+    width: 568px;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+.form__box-info h1{
+    width: 736px;
+    height: 77px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76.8px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+.form__box-info p{
+    width: 568px;
+    height: 104px;
+    gap: 24px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+.form__box-form{
+    box-sizing: border-box;
+    width: 667px;
+    height: 619px;
+    border-radius: 32px;
+    background-color: #FFFFFF;
+    padding: 64px 72px;
+}
+.form__box-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width:523px;
+    height:537px;
+    box-sizing: border-box;
+}
+.form-box{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.form__box-form form input{
+    box-sizing: border-box;
+    width: 523px;
+    height: 64px;
+    gap: 16px;
+    border-radius: 24px ;
+    border: 1px solid #CACACA;
+    outline: none;
+}
+.form-box{
+    box-sizing: border-box;
+    width: 523px;
+    height: 64px;
+    border-radius: 24px ;
+}
+.form-box input{
+    box-sizing: border-box;
+    outline: none;
+    gap: 10px;
+    border-radius: 24px ;
+    border: 1px solid #CACACA;
+
+    
+}
+.form-button{
+    border: none;
+    color: #FFFFFF;
+    background-color: #345995;
+    width: 523px;
+    height:60px;
+    box-sizing: border-box;
+    padding: 0px 32px 0px 32px;
+    border-radius: 30px ;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    outline: none;
+
+}
+.form-terms{
+    width: 331px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.form-terms span{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+
+}
